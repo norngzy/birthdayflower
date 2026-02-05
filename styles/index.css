@@ -1,0 +1,52 @@
+body {background-color: #ddd;}
+body #wrap {
+    background-color: #fff;
+    width: 440px; height: 956px;
+    margin: 0 auto;
+    background-image: url(../images/bg1.jpg);
+    background-size: 200% auto;
+    /* background-size: cover; -이미지가 잘려도 요소를 채움 */
+    /* background-size: 250px auto; -순서 w h */
+    /* background-repeat: no-repeat; -이미지가 화면보다 작아서 반복되는게 보일때 */
+    /* background-position: center; -순서 x y */
+    padding: 128px 65px 780px 65px;
+    text-align: center;
+}
+body #wrap #title {
+    margin-bottom: 30px;
+}
+body #wrap #title p {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+body #wrap #title h1 {}
+body #wrap #title h1 span {}
+body #wrap #birthday_frm {}
+body #wrap #birthday_frm input::placeholder {color: #ccc;}
+body #wrap #birthday_frm input:focus {border:2px solid rgb(211, 81, 92)}
+body #wrap #birthday_frm input {
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+body #wrap #birthday_frm #user_year {
+    margin-bottom: 15px;
+}
+body #wrap #birthday_frm #user_month {
+    margin-bottom: 15px;
+}
+body #wrap #birthday_frm #user_day {
+    margin-bottom: 30px;
+}
+body #wrap #birthday_frm #birthday_btn:hover {
+    background-color: #555;
+}
+body #wrap #birthday_frm #birthday_btn {
+    background-color: #000;
+    color: #fff;
+    width: 200px; height: 48px;
+    border-radius: 20px;
+}
