@@ -1,0 +1,45 @@
+body {}
+#wrap {
+    background-image: url(../images/bg2.jpg);
+    background-size: 150% auto;
+    background-position: center bottom;
+    width: 430px; height: 932px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px; /* #wrap > #title */
+}
+#wrap #title {
+    margin-bottom: 30px; /* #title + #contents */
+}
+#wrap #title p {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* p + h1 */
+}
+#wrap #title h1 {}
+#wrap .contents {
+    margin-bottom: 30px; /* #contents +button */
+}
+#wrap .contents p {}
+#wrap .contents .user_birth_month {
+    line-height: 1.5; /* 행간150% */
+    font-family: MaruBuri-B, serif;
+    margin-bottom: 10px; /* p+p */
+    font-style: italic;
+}
+#wrap .contents .result {}
+#wrap .contents .result em {font-family: MaruBuri-B, serif;}
+#wrap #share_btn {
+    display: block;
+    width: 200px; line-height: 48px; /* line-height:수직중앙 */
+    color: #fff;
+    background-color: #F08688;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+}
+#wrap #back_btn:hover {text-decoration: underline;}
+#wrap #share_btn:hover {background-color:#d12528}
+#wrap #back_btn {
+    display: block;
+    text-decoration: underline;
+    font-size: 0.75rem;
+}
