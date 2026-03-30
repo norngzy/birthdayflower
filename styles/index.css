@@ -50,3 +50,9 @@ body #wrap #birthday_frm #birthday_btn {
     width: 200px; height: 48px;
     border-radius: 20px;
 }
+#wrap .error_msg {
+    font-size: 0.75rem; color: #f00;
+    font-family: '맑은 고딕',snas-serif;
+    line-height: 2; font-weight: 600;
+    display: none; /* 초기숨기기 */
+}
